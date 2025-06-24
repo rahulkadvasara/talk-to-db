@@ -32,12 +32,12 @@ The system is intelligent enough to generate accurate queries for given question
 ```bash
   pip install -r requirements.txt
 ```
-4.Acquire an api key through makersuite.google.com and put it in .env file
+2. Acquire an api key through makersuite.google.com and put it in .env file
 
 ```bash
   GOOGLE_API_KEY=""
 ```
-5. For database setup, run database/db_creation.sql in your MySQL workbench
+3. For database setup, run database/db_creation.sql in your MySQL workbench
 
 ## Usage
 
@@ -47,7 +47,7 @@ streamlit run main.py
 
 ```
 
-2.The web app will open in your browser where you can ask questions
+2. The web app will open in your browser where you can ask questions
 
 ## Sample Questions
   - How many total t shirts are left in total in stock?
